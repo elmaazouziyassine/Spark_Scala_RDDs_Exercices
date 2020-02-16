@@ -1,0 +1,7 @@
+Spark Streaming receives live input data streams and divides the data into batches
+Batches are then processed by the Spark Engine to generate the final stream of results in batches
+Spark Streaming provides a high-level abstraction called Discretized Stream or DStream
+DStream represents a continuous stream of data
+DStreams can be created either from input data streams from sources such as Kafka Flume and Kinesis or by applying high-level operations on other DStreams
+Internally a DStream is represented as a sequence of RDDs.
+StramingContext is the main entry point for all streaming functionalities
