@@ -1,0 +1,6 @@
+ERROR:this is the first error
+WARN:this is the first warning
+ERROR:this is the second error
+WARN:this is the second warning
+ERROR:this is the third error
+WARN:this is the third warning
